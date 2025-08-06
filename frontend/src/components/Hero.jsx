@@ -36,21 +36,31 @@ const Hero = ({ scrollToSection }) => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-10">
           <button
             onClick={() => scrollToSection('projects')}
-            className="px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/25 shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/25 shadow-lg hover:shadow-xl transform hover:scale-105 hover:cursor-pointer"
           >
             View My Work
           </button>
 
           <button
             onClick={() => scrollToSection('contact')}
-            className="px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border-2 border-gray-400 text-gray-300 hover:bg-gray-400 hover:text-gray-900 hover:shadow-lg transform hover:scale-105"
+            className="px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border-2 border-gray-400 text-gray-300 hover:bg-gray-400 hover:text-gray-900 hover:shadow-lg transform hover:scale-105 hover:cursor-pointer"
           >
             Get In Touch
           </button>
+
+          <a
+            href="/Mohit_Jodhe_Resume.pdf"
+            download
+            className="px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border-2 border-gray-400 text-gray-300 hover:bg-gray-400 hover:text-gray-900 hover:shadow-lg transform hover:scale-105 hover:cursor-pointer"
+          >
+            Download Resume
+          </a>
+
+
         </div>
 
         {/* Social Icons */}
-        <div className="flex justify-center gap-6 text-gray-400 hover:text-white text-xl mb-10">
+        <div className="flex justify-center gap-6 text-gray-400  text-xl mb-10">
           <a
             href="https://github.com/mahi616"
             target="_blank"
@@ -67,13 +77,7 @@ const Hero = ({ scrollToSection }) => {
           >
             <Linkedin size={28} />
           </a>
-          <a
-            href="/Mohit_Jodhe_Resume.pdf"
-            download
-            className="hover:text-white transition-colors"
-          >
-            <Download size={28} />
-          </a>
+
         </div>
       </div>
 

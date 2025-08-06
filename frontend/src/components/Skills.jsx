@@ -2,37 +2,38 @@ import React from 'react';
 
 export const Skills = () => {
   const skillCategories = [
-    {
-      title: 'Frontend',
-      skills: [
-        { name: 'React.js', level: 95 },
-        { name: 'Next.js', level: 90 },
-        { name: 'JavaScript (ES6+)', level: 92 },
-        { name: 'Tailwind CSS', level: 95 },
-        { name: 'HTML5 & CSS3', level: 97 },
-      ],
-    },
-    {
-      title: 'Backend',
-      skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Express.js', level: 88 },
-        { name: 'MongoDB (Mongoose)', level: 89 },
-        { name: 'REST APIs', level: 91 },
-        { name: 'JWT Authentication', level: 87 },
-      ],
-    },
-    {
-      title: 'Tools & Others',
-      skills: [
-        { name: 'Git & GitHub', level: 94 },
-        { name: 'VS Code', level: 96 },
-        { name: 'Postman', level: 90 },
-        { name: 'Vite & Webpack', level: 85 },
-        { name: 'Figma', level: 75 },
-      ],
-    },
-  ];
+  {
+    title: 'Frontend',
+    skills: [
+      { name: 'React.js', level: 95 },
+      { name: 'Next.js', level: 90 },
+      { name: 'JavaScript (ES6+)', level: 92 },
+      { name: 'Tailwind CSS', level: 95 },
+      { name: 'HTML5 & CSS3', level: 97 },
+    ],
+  },
+  {
+    title: 'Backend',
+    skills: [
+      { name: 'Node.js', level: 90 },
+      { name: 'Express.js', level: 88 },
+      { name: 'MongoDB (Mongoose)', level: 89 },
+      { name: 'REST APIs', level: 91 },
+      { name: 'JWT Authentication', level: 87 },
+    ],
+  },
+  {
+    title: 'Tools & Others',
+    skills: [
+      { name: 'Git & GitHub', level: 94 },
+      { name: 'Postman', level: 90 },
+      { name: 'Redux & Context API', level: 88 },
+      { name: 'VS Code', level: 96 },
+      { name: 'Vite', level: 90 },
+    ],
+  },
+];
+
 
   return (
      <section id="skills" className="py-20 transition-colors duration-300 bg-gray-800">
